@@ -39,4 +39,9 @@ coverage/
 
 # Ignore custom debug files
 debug.log
+```
 
+## printing server location
+```
+console.log(`Server is  running on address http://localhost:${PORT}`)
+```
