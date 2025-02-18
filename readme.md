@@ -49,3 +49,10 @@ console.log(`Server is  running on address http://localhost:${PORT}`)
 ```
 DB_URL=mongodb://127.0.0.1:27017/<Database name >?authSource=admin&w=1
 ```
+-way to connectDB
+```
+// Connect to MongoDB
+mongoose.connect(DB_URL).then(()=>{console.log('DB CONNECTED ')}).catch((err)=>{
+console.log(err)
+});
+```
