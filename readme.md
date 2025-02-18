@@ -41,7 +41,11 @@ coverage/
 debug.log
 ```
 
-## printing server location
+# printing server location
 ```
 console.log(`Server is  running on address http://localhost:${PORT}`)
+```
+# DB Connection🍃🌿🍀🌲
+```
+DB_URL=mongodb://127.0.0.1:27017/<Database name >?authSource=admin&w=1
 ```
