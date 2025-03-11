@@ -56,3 +56,9 @@ mongoose.connect(DB_URL).then(()=>{console.log('DB CONNECTED ')}).catch((err)=>{
 console.log(err)
 });
 ```
+
+## All the **NPM** Package for backend Project 🥷
+```bash
+npm install express cors dotenv mongoose pg pg-hstore sequelize jsonwebtoken bcryptjs express-validator cookie-parser multer helmet morgan compression uuid nodemailer winston
+
+```
