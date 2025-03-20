@@ -62,3 +62,28 @@ console.log(err)
 npm install express cors dotenv mongoose pg pg-hstore sequelize jsonwebtoken bcryptjs express-validator cookie-parser multer helmet morgan compression uuid nodemailer winston
 
 ```
+## 🚀 Vercel Deployment Configuration
+
+This project is configured for deployment using **Vercel**. Below is the `vercel.json` configuration file used for deployment:
+
+```json
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "server.js",
+      "use": "@vercel/node",
+      "config": {
+        "includeFiles": [
+          "dist/**"
+        ]
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "server.js"
+    }
+  ]
+}
