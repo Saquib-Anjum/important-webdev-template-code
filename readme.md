@@ -87,3 +87,16 @@ This project is configured for deployment using **Vercel**. Below is the `vercel
     }
   ]
 }
+```
+##🍀vercel config for backend (react-router-dom)
+```json
+
+  {
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/"
+      }
+    ]
+  }
+```
