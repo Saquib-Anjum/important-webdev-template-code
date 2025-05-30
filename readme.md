@@ -45,23 +45,48 @@ debug.log
 ```
 console.log(`Server is  running on address http://localhost:${PORT}`)
 ```
+---
 # DB Connection🍃🌿🍀🌲
 ```
 DB_URL=mongodb://127.0.0.1:27017/<Database name >?authSource=admin&w=1
 ```
+
 -way to connectDB
-```
+```javascript
 // Connect to MongoDB
 mongoose.connect(DB_URL).then(()=>{console.log('DB CONNECTED ')}).catch((err)=>{
 console.log(err)
 });
 ```
+```javascript
+import mongoose from "mongoose";
+import dotenv from "dotenv";
 
+dotenv.config();
+
+const connectDB = async () => {
+  try {
+    mongoose.connection.on("connected", () => {
+      console.log(" 💖 DB Connected");
+    });
+    await mongoose.connect(`${process.env.MONGODB_URI}`);
+  } catch (err) {
+    console.error(" Initial connection error:", err);
+  }
+};
+
+export default connectDB;
+
+});
+```
+---
 ## All the **NPM** Package for backend Project 🥷
 ```bash
 npm install express cors dotenv mongoose pg pg-hstore sequelize jsonwebtoken bcryptjs express-validator cookie-parser multer helmet morgan compression uuid nodemailer winston
 
 ```
+---
+---
 ## 🚀 Vercel Deployment  Configuration  for express backend 🩺
 
 This project is configured for deployment using **Vercel**. Below is the `vercel.json` configuration file used for deployment:
@@ -100,7 +125,7 @@ This project is configured for deployment using **Vercel**. Below is the `vercel
     ]
   }
 ```
-
+---
 ##  Cloudinary ☁️⛈️ Configuration in MERN Stack
 ```javascript
 import { v2 as cloudinary } from "cloudinary";
