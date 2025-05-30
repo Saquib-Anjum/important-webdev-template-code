@@ -62,7 +62,7 @@ console.log(err)
 npm install express cors dotenv mongoose pg pg-hstore sequelize jsonwebtoken bcryptjs express-validator cookie-parser multer helmet morgan compression uuid nodemailer winston
 
 ```
-## 🚀 Vercel Deployment  Configuration express backend 🩺
+## 🚀 Vercel Deployment  Configuration  for express backend 🩺
 
 This project is configured for deployment using **Vercel**. Below is the `vercel.json` configuration file used for deployment:
 
@@ -88,7 +88,7 @@ This project is configured for deployment using **Vercel**. Below is the `vercel
     ]
 }
 ```
-##🍀vercel config for FrontEnd (react-router-dom)
+##🍀Vercel config for FrontEnd (react-router-dom)
 ```json
 
   {
@@ -99,4 +99,18 @@ This project is configured for deployment using **Vercel**. Below is the `vercel
       }
     ]
   }
+```
+
+##  Cloudinary ☁️⛈️ Configuration in MERN Stack
+```javascript
+import { v2 as cloudinary } from "cloudinary";
+const connectCloudinary = async () => {
+  cloudinary.config({
+    cloud_name: process.env.CLOUDINARY_NAME,
+    api_key: process.env.CLOUDINARY_API_KEY,
+    api_secret: process.env.CLOUDINARY_SECRET_KEY,
+  });
+};
+export default connectCloudinary;
+
 ```
