@@ -1,5 +1,5 @@
 #  [🚀PostgreSQL Template Code 🚀](https://github.com/Saquib-Anjum/important-webdev-template-code/blob/main/postgresSQL_template_code.md)
-
+#  [Git Command for security ⚒️](https://github.com/Saquib-Anjum/important-webdev-template-code/blob/main/securityGit.md)
 # 📁 Git Ignore Template
 
 This template includes common patterns to ignore files and directories in a Git project.
