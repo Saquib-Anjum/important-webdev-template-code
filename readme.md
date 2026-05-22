@@ -2,7 +2,7 @@
 
 <p align="center">
   <!-- Button 1: NodeJS Input Guide -->
-  <a href="(https://victorious-amethyst-atc6uas27x.edgeone.app/">
+  <a href="https://yucky-amaranth-xnwa9v5z0f.edgeone.app/" target="_blank">
     <img src="https://custom-icon-badges.demolab.com/badge/-⚡%20Ultimate%20NodeJS%20Input%20Guide-7C3AED?style=for-the-badge&logo=js&logoColor=white&labelColor=1e1b4b" height="65" style="border-radius:14px; margin: 8px; filter: drop-shadow(0px 5px 0px #4c1d95);" alt="NodeJS Guide"/>
   </a>
   <br>
