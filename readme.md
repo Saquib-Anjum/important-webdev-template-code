@@ -1,6 +1,21 @@
-#  [🚀PostgreSQL Template Code 🚀](https://github.com/Saquib-Anjum/important-webdev-template-code/blob/main/postgresSQL_template_code.md)
-#  [Git Command for security ⚒️](https://github.com/Saquib-Anjum/important-webdev-template-code/blob/main/securityGit.md)
-# 📁 Git Ignore Template
+<p align="center">
+  <!-- Button 1: NodeJS Input Guide -->
+  <a href="https://github.com/Saquib-Anjum/important-webdev-template-code/blob/main/InputInJS.md">
+    <img src="https://custom-icon-badges.demolab.com/badge/-⚡%20Ultimate%20NodeJS%20Input%20Guide-7C3AED?style=for-the-badge&logo=js&logoColor=white&labelColor=1e1b4b" height="65" style="border-radius:14px; margin: 8px; filter: drop-shadow(0px 5px 0px #4c1d95);" alt="NodeJS Guide"/>
+  </a>
+  <br>
+
+  <!-- Button 2: PostgreSQL Template Code -->
+  <a href="https://github.com/Saquib-Anjum/important-webdev-template-code/blob/main/postgresSQL_template_code.md">
+    <img src="https://custom-icon-badges.demolab.com/badge/-🚀%20PostgreSQL%20Template%20Code-336791?style=for-the-badge&logo=postgres&logoColor=white&labelColor=0f172a" height="65" style="border-radius:14px; margin: 8px; filter: drop-shadow(0px 5px 0px #1e3a8a);" alt="PostgreSQL Templates"/>
+  </a>
+  <br>
+
+  <!-- Button 3: Git Security Commands -->
+  <a href="https://github.com/Saquib-Anjum/important-webdev-template-code/blob/main/securityGit.md">
+    <img src="https://custom-icon-badges.demolab.com/badge/-⚒️%20Git%20Security%20Commands-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=1e0a05" height="65" style="border-radius:14px; margin: 8px; filter: drop-shadow(0px 5px 0px #9a3412);" alt="Git Security"/>
+  </a>
+</p>
 
 This template includes common patterns to ignore files and directories in a Git project.
 
